@@ -1,0 +1,39 @@
+{
+  "name": "rayter-writer",
+  "version": "1.0.0",
+  "description": "Companion app/backend for generated Rayter websites that let Github users add match results to the Rayter data repo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayter-org/rayter-writer.git"
+  },
+  "keywords": [
+    "rayter",
+    "rating",
+    "ranking",
+    "games",
+    "elo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayter-org/rayter-writer/issues"
+  },
+  "homepage": "https://github.com/rayter-org/rayter-writer#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "postcss": "^8.4.31",
+    "rollup": "^4.3.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.69.5",
+    "vue": "^3.3.7"
+  }
+}
